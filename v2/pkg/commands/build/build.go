@@ -78,7 +78,7 @@ func Build(options *Options) (string, error) {
 	outputLogger := options.Logger
 
 	// Get working directory
-	cwd, err := os.Getwd()
+	_, err := os.Getwd()
 	if err != nil {
 		return "", err
 	}
@@ -118,11 +118,6 @@ func Build(options *Options) (string, error) {
 		if err := execPreBuildHook(outputLogger, options, hook, hookArgs); err != nil {
 			return "", err
 		}
-	}
-
-	// Create embed directories if they don't exist
-	if err := CreateEmbedDirectories(cwd, options); err != nil {
-		return "", err
 	}
 
 	// Generate bindings
