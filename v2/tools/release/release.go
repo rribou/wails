@@ -10,7 +10,7 @@ import (
 
 	"github.com/samber/lo"
 
-	"github.com/wailsapp/wails/v2/internal/s"
+	"github.com/rribou/wails/v2/internal/s"
 )
 
 const versionFile = "../../cmd/wails/internal/version.txt"

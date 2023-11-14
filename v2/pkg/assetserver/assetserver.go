@@ -10,8 +10,8 @@ import (
 
 	"golang.org/x/net/html"
 
-	"github.com/wailsapp/wails/v2/pkg/options"
-	"github.com/wailsapp/wails/v2/pkg/options/assetserver"
+	"github.com/rribou/wails/v2/pkg/options"
+	"github.com/rribou/wails/v2/pkg/options/assetserver"
 )
 
 const (

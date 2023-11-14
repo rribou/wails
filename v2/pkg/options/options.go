@@ -7,14 +7,14 @@ import (
 	"net/http"
 	"runtime"
 
-	"github.com/wailsapp/wails/v2/pkg/options/assetserver"
-	"github.com/wailsapp/wails/v2/pkg/options/linux"
-	"github.com/wailsapp/wails/v2/pkg/options/mac"
-	"github.com/wailsapp/wails/v2/pkg/options/windows"
+	"github.com/rribou/wails/v2/pkg/options/assetserver"
+	"github.com/rribou/wails/v2/pkg/options/linux"
+	"github.com/rribou/wails/v2/pkg/options/mac"
+	"github.com/rribou/wails/v2/pkg/options/windows"
 
-	"github.com/wailsapp/wails/v2/pkg/menu"
+	"github.com/rribou/wails/v2/pkg/menu"
 
-	"github.com/wailsapp/wails/v2/pkg/logger"
+	"github.com/rribou/wails/v2/pkg/logger"
 )
 
 type WindowStartState int

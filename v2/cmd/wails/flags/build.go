@@ -8,9 +8,9 @@ import (
 	"strings"
 
 	"github.com/leaanthony/slicer"
-	"github.com/wailsapp/wails/v2/internal/system"
-	"github.com/wailsapp/wails/v2/pkg/commands/build"
-	"github.com/wailsapp/wails/v2/pkg/commands/buildtags"
+	"github.com/rribou/wails/v2/internal/system"
+	"github.com/rribou/wails/v2/pkg/commands/build"
+	"github.com/rribou/wails/v2/pkg/commands/buildtags"
 )
 
 const (

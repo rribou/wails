@@ -30,7 +30,7 @@ static void fix_signal(int signum)
 fix_signal_error:
         fprintf(stderr, "error fixing handler for signal %d, please "
                 "report this issue to "
-                "https://github.com/wailsapp/wails: %s\n",
+                "https://github.com/rribou/wails: %s\n",
                 signum, strerror(errno));
 }
 
@@ -88,14 +88,14 @@ import (
 	"text/template"
 	"unsafe"
 
-	"github.com/wailsapp/wails/v2/pkg/assetserver"
-	"github.com/wailsapp/wails/v2/pkg/assetserver/webview"
+	"github.com/rribou/wails/v2/pkg/assetserver"
+	"github.com/rribou/wails/v2/pkg/assetserver/webview"
 
-	"github.com/wailsapp/wails/v2/internal/binding"
-	"github.com/wailsapp/wails/v2/internal/frontend"
-	wailsruntime "github.com/wailsapp/wails/v2/internal/frontend/runtime"
-	"github.com/wailsapp/wails/v2/internal/logger"
-	"github.com/wailsapp/wails/v2/pkg/options"
+	"github.com/rribou/wails/v2/internal/binding"
+	"github.com/rribou/wails/v2/internal/frontend"
+	wailsruntime "github.com/rribou/wails/v2/internal/frontend/runtime"
+	"github.com/rribou/wails/v2/internal/logger"
+	"github.com/rribou/wails/v2/pkg/options"
 )
 
 var initOnce = sync.Once{}
